@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature's Platter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .search-icon {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+      }
+
+      .sora-text{
+        font-family: "Sora", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+
+    </style>
+  </head>
+  <body class="sora-text">
+
+    <header>
+        <nav>
+          <div class="flex justify-between items-center box-border border border-[#179800] md:border-none px-2 py-2">
+            <div class="w-32">
+              <img src="assets/logo-header.png" alt="" />
+            </div>
+            
+            <div class="list-none hidden md:block">
+              <ul class="flex space-x-6 text-center">
+                <li><a class="no-underline" href="">Product</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact us</a></li>
+              </ul>
+            </div>
+            
+            <div class="flex space-x-6 items-center hidden md:flex">
+              <svg class="search-icon cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              </svg>
+              <svg class="cursor-pointer"  width="20.925537" height="13.227276" viewBox="0 0 20.9255 13.2273" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>Created with Pixso.</desc>
+                <defs />
+                <path id="Vector" d="M1.73 8.9C0.74 9.11 0 9.99 0 11.04C0 12.25 0.97 13.22 2.18 13.22C3.24 13.22 4.13 12.46 4.32 11.45C4.35 11.32 4.36 11.18 4.36 11.04C4.36 10.8 4.32 10.57 4.25 10.36C4.2 10.22 4.14 10.08 4.07 9.95L14.44 9.95C14.37 10.08 14.31 10.22 14.26 10.36C14.19 10.57 14.15 10.8 14.15 11.04C14.15 11.18 14.16 11.32 14.19 11.45C14.38 12.46 15.27 13.22 16.33 13.22C17.4 13.22 18.28 12.46 18.48 11.45C18.5 11.32 18.51 11.18 18.51 11.04C18.51 10.8 18.48 10.57 18.41 10.36C18.36 10.22 18.3 10.08 18.22 9.95L19.28 9.95C19.48 9.95 19.66 9.92 19.82 9.86C20.97 9.47 21.36 7.87 20.29 7.03L18.81 5.86L18.65 5.73C18.58 5.67 18.49 5.63 18.39 5.62L17.35 5.48L17.49 5.09L17.88 4.04L18.81 1.5L19.36 0L5.99 0C5.27 0 4.74 0.69 4.94 1.39L6 5.02L15.45 6.32L16.52 6.47C16.53 6.47 16.54 6.47 16.54 6.47L18.09 6.68L18.95 7.36L19 7.4L19.62 7.89C20.03 8.21 19.8 8.86 19.28 8.86L2.18 8.86C2.02 8.86 1.87 8.87 1.73 8.9ZM15.94 10.36L16.73 10.36L16.92 10.7Q16.96 10.77 16.99 10.84Q17.01 10.94 17.01 11.04Q17.01 11.18 16.96 11.3Q16.91 11.42 16.81 11.52Q16.71 11.62 16.59 11.67Q16.47 11.72 16.33 11.72Q16.19 11.72 16.07 11.67Q15.95 11.62 15.85 11.52Q15.75 11.42 15.7 11.3Q15.65 11.18 15.65 11.04Q15.65 10.94 15.68 10.84Q15.7 10.77 15.74 10.7L15.94 10.36ZM15.97 4.88L17.21 1.5L6.54 1.5L7.17 3.67L15.97 4.88ZM2.57 10.36L2.18 10.36Q2.04 10.36 1.92 10.41Q1.79 10.46 1.69 10.56Q1.59 10.66 1.54 10.78Q1.5 10.9 1.5 11.04Q1.5 11.18 1.54 11.3Q1.59 11.42 1.69 11.52Q1.79 11.62 1.92 11.67Q2.04 11.72 2.18 11.72Q2.32 11.72 2.44 11.67Q2.56 11.62 2.66 11.52Q2.76 11.42 2.81 11.3Q2.86 11.18 2.86 11.04Q2.86 10.94 2.83 10.84Q2.81 10.77 2.77 10.7L2.57 10.36Z" fill="#111111" fill-opacity="1.000000" fill-rule="evenodd" />
+              </svg>
+              <button class="box-border border border-[#179800] text-[rgb(17,17,17)] rounded-lg font-sora text-[1rem] px-[1.56rem] py-[0.52rem] flex items-center justify-center w-[117px] h-[45px] hover:bg-[rgb(249,90,90)]">Login</button>
+              <button class="box-border border bg-[rgb(23,152,0)] text-white rounded-lg font-sora text-[1rem] px-[1.56rem] py-[0.52rem] flex items-center justify-center w-[117px] h-[45px] hover:bg-[rgb(249,90,90)]">Register</button>
+            </div>
+            
+            <div class="md:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </div>
+          </div>
+        </nav>
+      </header>
+  </body>
+</html>
